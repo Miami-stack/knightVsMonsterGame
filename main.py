@@ -6,16 +6,32 @@ victory_list = []
 
 
 def plus(a: int, b: int) -> int:
+    """
+
+       Эта функция складывает значения
+
+    """
     c = a + b
     return c
 
 
 def minus(a: int, b: int) -> int:
+    """
+
+        Эта функция вычитает значения
+
+    """
     c = a - b
     return c
 
 
-def exception():
+def exception() -> str or int:
+    """
+
+    Эта функция обрабатывает исключения
+
+    """
+
     while True:
         try:
             number = int(input())
@@ -24,7 +40,6 @@ def exception():
         except ValueError:
             return "Вы ввели неверное значение , надо ввести 1 или 2"
         except Exception:
-
             return "Вы ввели неверное значение , надо ввести 1 или 2"
         return number
 
