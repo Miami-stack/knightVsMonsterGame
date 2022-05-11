@@ -67,7 +67,7 @@ while True:
                 if len(victory_list) == 10:
                     print("Победа!")
                     break
-        #             sadadasdsadsadasd
+        #             sadadasdsadsadasdasdasdads
         if nm == 2:
             print(" Вы убежали ")
 
